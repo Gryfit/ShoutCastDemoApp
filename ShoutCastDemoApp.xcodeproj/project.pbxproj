@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DD0F94225A425900C66AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD0F93225A425900C66AFD /* AppDelegate.swift */; };
+		84DD0F96225A425900C66AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD0F95225A425900C66AFD /* ViewController.swift */; };
+		84DD0F99225A425900C66AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD0F97225A425900C66AFD /* Main.storyboard */; };
+		84DD0F9B225A425A00C66AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD0F9A225A425A00C66AFD /* Assets.xcassets */; };
+		84DD0F9E225A425A00C66AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD0F9C225A425A00C66AFD /* LaunchScreen.storyboard */; };
+		84DD0FCA225B02EC00C66AFD /* FreeStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DD0FC9225B02CC00C66AFD /* FreeStreamer.framework */; };
+		84DD0FCD225B1A2400C66AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD0FCC225B1A2400C66AFD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DD0FC8225B02CC00C66AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DD0FC4225B02CC00C66AFD /* FreeStreamer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 969D3AA11C6DE48F00DF5410;
+			remoteInfo = FreeStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DD0F90225A425900C66AFD /* ShoutCastDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoutCastDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD0F93225A425900C66AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DD0F95225A425900C66AFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DD0F98225A425900C66AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DD0F9A225A425A00C66AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DD0F9D225A425A00C66AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DD0F9F225A425A00C66AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD0FB1225A42DB00C66AFD /* FreeStreamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FreeStreamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD0FB9225A486700C66AFD /* ShoutCastBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoutCastBridgingHeader.h; sourceTree = "<group>"; };
+		84DD0FC4225B02CC00C66AFD /* FreeStreamer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FreeStreamer.xcodeproj; path = "../../../Downloads/FreeStreamer-master/FreeStreamer/FreeStreamer.xcodeproj"; sourceTree = "<group>"; };
+		84DD0FCC225B1A2400C66AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DD0F8D225A425900C66AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD0FCA225B02EC00C66AFD /* FreeStreamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DD0F87225A425900C66AFD = {
+			isa = PBXGroup;
+			children = (
+				84DD0FCB225B1A0400C66AFD /* Images */,
+				84DD0F92225A425900C66AFD /* ShoutCastDemoApp */,
+				84DD0F91225A425900C66AFD /* Products */,
+				84DD0FB0225A42DB00C66AFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84DD0F91225A425900C66AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DD0F90225A425900C66AFD /* ShoutCastDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DD0F92225A425900C66AFD /* ShoutCastDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				84DD0FC4225B02CC00C66AFD /* FreeStreamer.xcodeproj */,
+				84DD0F93225A425900C66AFD /* AppDelegate.swift */,
+				84DD0F95225A425900C66AFD /* ViewController.swift */,
+				84DD0F97225A425900C66AFD /* Main.storyboard */,
+				84DD0F9A225A425A00C66AFD /* Assets.xcassets */,
+				84DD0F9C225A425A00C66AFD /* LaunchScreen.storyboard */,
+				84DD0F9F225A425A00C66AFD /* Info.plist */,
+				84DD0FB9225A486700C66AFD /* ShoutCastBridgingHeader.h */,
+			);
+			path = ShoutCastDemoApp;
+			sourceTree = "<group>";
+		};
+		84DD0FB0225A42DB00C66AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DD0FB1225A42DB00C66AFD /* FreeStreamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DD0FC5225B02CC00C66AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DD0FC9225B02CC00C66AFD /* FreeStreamer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DD0FCB225B1A0400C66AFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84DD0FCC225B1A2400C66AFD /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DD0F8F225A425900C66AFD /* ShoutCastDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD0FA2225A425A00C66AFD /* Build configuration list for PBXNativeTarget "ShoutCastDemoApp" */;
+			buildPhases = (
+				84DD0F8C225A425900C66AFD /* Sources */,
+				84DD0F8D225A425900C66AFD /* Frameworks */,
+				84DD0F8E225A425900C66AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoutCastDemoApp;
+			productName = ShoutCastDemoApp;
+			productReference = 84DD0F90225A425900C66AFD /* ShoutCastDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DD0F88225A425900C66AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kalaivani, Velusamy (623-Extern)";
+				TargetAttributes = {
+					84DD0F8F225A425900C66AFD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 84DD0F8B225A425900C66AFD /* Build configuration list for PBXProject "ShoutCastDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DD0F87225A425900C66AFD;
+			productRefGroup = 84DD0F91225A425900C66AFD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84DD0FC5225B02CC00C66AFD /* Products */;
+					ProjectRef = 84DD0FC4225B02CC00C66AFD /* FreeStreamer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84DD0F8F225A425900C66AFD /* ShoutCastDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84DD0FC9225B02CC00C66AFD /* FreeStreamer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FreeStreamer.framework;
+			remoteRef = 84DD0FC8225B02CC00C66AFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DD0F8E225A425900C66AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD0F9E225A425A00C66AFD /* LaunchScreen.storyboard in Resources */,
+				84DD0F9B225A425A00C66AFD /* Assets.xcassets in Resources */,
+				84DD0FCD225B1A2400C66AFD /* Assets.xcassets in Resources */,
+				84DD0F99225A425900C66AFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DD0F8C225A425900C66AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD0F96225A425900C66AFD /* ViewController.swift in Sources */,
+				84DD0F94225A425900C66AFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DD0F97225A425900C66AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DD0F98225A425900C66AFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DD0F9C225A425A00C66AFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DD0F9D225A425A00C66AFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DD0FA0225A425A00C66AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/vkalaiv/Desktop/ShoutCastDemoApp/ShoutCastDemoApp/ShoutCastBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		84DD0FA1225A425A00C66AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/vkalaiv/Desktop/ShoutCastDemoApp/ShoutCastDemoApp/ShoutCastBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DD0FA3225A425A00C66AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = ShoutCastDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daimler.comandtouchios.ShoutCastDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DD0FA4225A425A00C66AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = ShoutCastDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daimler.comandtouchios.ShoutCastDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DD0F8B225A425900C66AFD /* Build configuration list for PBXProject "ShoutCastDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD0FA0225A425A00C66AFD /* Debug */,
+				84DD0FA1225A425A00C66AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD0FA2225A425A00C66AFD /* Build configuration list for PBXNativeTarget "ShoutCastDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD0FA3225A425A00C66AFD /* Debug */,
+				84DD0FA4225A425A00C66AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DD0F88225A425900C66AFD /* Project object */;
+}
